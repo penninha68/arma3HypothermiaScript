@@ -1,5 +1,4 @@
 //HYPOTHERMIA-v1.01//
-//Made By Seedorf for Brothers in Arms - 15/03/2022
 
 Private _Target = Player; 
 x = 0; 
