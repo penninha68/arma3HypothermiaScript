@@ -6,7 +6,7 @@ In the SQF file itself, you will notice some numbers:
 
 on Line 13: 
 
-"if ( x == 30) then {"  
+	if ( x == 30) then {  
 
 30 is the number in seconds that a person has to stay in water to get hypothermia. 
 
@@ -21,7 +21,7 @@ on Line 14 (it depends also on line 20):
 		uiSleep 20;
 
 On line 14 the number "15" its the counter on how many times this loop will actually run. 
-However it is not in second, because you have the effects of sound and cliente screen effects. 
+However it is not in seconds, because you have the effects of sound and client screen effects. 
 So, on Line 20 you have "uiSleep 20;" wich refers on seconds, the gap between each loop. 
 Now, it is simple math: 20 seconds is 1/3 of a minute. So if the loop runs 3 times, the effects of
 hypothermia will last 1 minute, in the case of this script, will last 5 minutes. 
